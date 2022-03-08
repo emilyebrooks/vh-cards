@@ -1,0 +1,55 @@
+/*COLORS & STYLES
+All Font: Poppins
+Large Fonts: Brown #807665  
+Small Fonts: Dark Brown #5D554D
+Light Pink: #F4EFEB
+Background: white, #8b7b6e, #eceae9, #f4efeb
+Pops of color, hyperlinks, etc: Brick #9F5925  
+*/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #f4efeb;
+  height: 100px;
+}
+
+header h4 {
+  color: #807665;
+  font-size: 1.5em;
+  margin-left: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 2em;
+}
+
+header h6 {
+  color: #807665;
+  font-size: 1em;
+  margin-left: 2.25em;
+  margin-top: 0;
+}
+
+#content {
+  margin: auto;
+  width: 95%;
+}
+.saves,
+.deck,
+.discard,
+.maybe {
+  padding-bottom: 2em;
+}
+
+.btn {
+  width: 30%;
+  height: 5em;
+  color: #807665;
+  background-color: #f4efeb;
+  border: solid #807665 1px;
+}
