@@ -2,9 +2,9 @@
 All Font: Poppins
 Large Fonts: Brown #807665  
 Small Fonts: Dark Brown #5D554D
+Brick Color: #9F5925 (pops of color,  hyperlinks)
 Light Pink: #F4EFEB
-Background: white, #8b7b6e, #eceae9, #f4efeb
-Pops of color, hyperlinks, etc: Brick #9F5925  
+Background: white, #8b7b6e, #eceae9, 
 */
 html {
   font-size: 16px;
@@ -36,20 +36,43 @@ header h6 {
 }
 
 #content {
-  margin: auto;
-  width: 95%;
+  text-align: center;
 }
-.saves,
+
+#dashboard {
+  padding: 2em;
+  color: #8b7b6e;
+}
+
+#tabletop {
+  width: 95%;
+  margin: auto;
+  background-color: #eceae9;
+  border: solid #807665 1px;
+  border-radius: 20px;
+}
+
+.placeholders,
 .deck,
 .discard,
 .maybe {
   padding-bottom: 2em;
 }
 
+.placeholder {
+  display: inline-block;
+  margin: 20px;
+  padding: 2em;
+  color: #8b7b6b;
+  background-color: white;
+  border: 1px solid #807665;
+  border-radius: 20px;
+}
+
 .btn {
-  width: 30%;
-  height: 5em;
+  padding: 2em;
   color: #807665;
-  background-color: #f4efeb;
-  border: solid #807665 1px;
+  background-color: white;
+  border: 1px solid #807665;
+  border-radius: 20px;
 }
