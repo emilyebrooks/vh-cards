@@ -67,6 +67,7 @@ header h6 {
   background-color: white;
   border: 1px solid #807665;
   border-radius: 20px;
+  fill-opacity: 0;
 }
 
 .btn {
